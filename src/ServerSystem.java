@@ -11,8 +11,9 @@ public class ServerSystem {
 
     }
 
+    // run the server
     public void runSystem() {
-        System.out.println("Runnning system ...");
+        System.out.println("Server is live ...");
         DatagramSocket socket = null;
 
         try {
