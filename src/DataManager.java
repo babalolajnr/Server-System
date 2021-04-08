@@ -1,10 +1,10 @@
 import java.util.LinkedList;
 
 public class DataManager {
-    private LinkedList availableData;
+    private LinkedList<Object> availableData;
 
     public DataManager() {
-        availableData = new LinkedList();
+        availableData = new LinkedList<Object>();
 
     }
 
